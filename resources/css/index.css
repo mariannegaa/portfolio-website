@@ -1,0 +1,53 @@
+  * {
+    font-family: Georgia, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  figure {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #profile-pic {
+    height: 300px;
+    width: 215px;
+    border-radius: 250px;
+  }
+  
+  h1 {
+    color: rgb(18, 34, 63);
+    font-family: Helvetica;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+ 
+  .mini-title {
+    font-size: 22px;
+  }
+  
+  .top-half {
+    background-color: rgb(184, 218, 206);
+    height: 450px;
+  }
+
+  .bottom-half {
+    height: 450px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
