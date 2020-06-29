@@ -20,14 +20,13 @@
   }
 
   #profile-pic {
-    height: 300px;
-    width: 215px;
-    border-radius: 250px;
+    height: 354px;
+    width: 368px;
   }
   
   h1 {
-    color: rgb(18, 34, 63);
-    font-family: Helvetica;
+    color: rgb(6, 21, 44);
+    font-family: Arial;
   }
   
   p {
@@ -35,17 +34,17 @@
     text-align: center;
   }
  
-  .mini-title {
+  .description {
     font-size: 22px;
   }
   
   .top-half {
-    background-color: rgb(184, 218, 206);
-    height: 450px;
+    background-color: rgb(190, 209, 236);
+    height: 500px;
   }
 
   .bottom-half {
-    height: 450px;
+    height: 500px;
   }
   
   a {
