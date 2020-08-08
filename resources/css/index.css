@@ -22,11 +22,13 @@
   #profile-pic {
     height: 354px;
     width: 368px;
+    opacity: 0.95;
   }
   
   h1 {
-    color: rgb(6, 21, 44);
-    font-family: Arial;
+    color: rgb(100, 112, 127);
+    font-family: 'Heveltica Neue';
+    font-weight: bold;
   }
   
   p {
@@ -36,14 +38,12 @@
  
   .description {
     font-size: 22px;
+    font-family: 'Heveltica Neue';
+    color: white;
   }
   
   .top-half {
-    background-color: rgb(190, 209, 236);
-    height: 500px;
-  }
-
-  .bottom-half {
+    background-color: rgb(162, 178, 189);
     height: 500px;
   }
   
