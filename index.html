@@ -4,24 +4,59 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
         <title>Marianne Gaa</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
         <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
+        <style>
+                /* Remove the navbar's default margin-bottom and rounded borders */ 
+                .navbar {
+                  margin-bottom: 0;
+                  border-radius: 0;
+                }
+                
+                /* Add a gray background color and some padding to the footer */
+                footer {
+                  background-color: #f2f2f2;
+                  padding: 25px;
+                }
+        </style>
     </head>
     <body>
-        <div class="top-half">
-            <header>
-                <h1>MARIANNE-GAA.COM</h1></header>
-            </header>
-        
-            <section>
-                    <figure>
-                            <img src="./resources/images/ProfilePic.jpeg" id="profile-pic">
-                    </figure></br>
-                <p class="description">{ Work in Progress }</p>
     
-            
-            </section>
-        </div>
+            <nav class="navbar">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>                        
+                        </button>
+                        <div class="navbar-brand">MARIANNE GAA</div>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#home">Home</a></li>
+                          <li><a href="#timeline">Timeline</a></li>
+                          <li><a href="#skills">Skills</a></li>
+                          <li><a href="#projects">Projects</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                                <li><a href="http://linkedin.com/in/marianne-gaa" target="_blank"><span class="icon-bar"></span>LinkedIn</a></li>
+                                <li><a href="http://github.com/mariannegaa" target="_blank"><span class="icon-bar"></span>GitHub</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </nav>
+            <div class="jumbotron">
+                    <div class="container text-center">
+                      <h1>My Portfolio</h1>      
+                      <p>Some text that represents "Me"...</p>
+                    </div>
+            </div>
+
+        
     
         
         <script src="./index.js"></script>
