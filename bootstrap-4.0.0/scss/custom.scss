@@ -1,0 +1,8 @@
+@import "_functions.scss";
+@import "_variables.scss";
+
+ /* make changes to the !default Bootstrap variables */
+$body-color: #6D2077;  //this is the text color
+
+/* finally, import Bootstrap to set the changes! */
+@import "bootstrap.scss";
