@@ -14,52 +14,55 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
     </head>
     <body>
     
-            <nav class="navbar navbar-default navbar-fixed-top">
-                    <div class="container-fluid">
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>                        
-                        </button>
-                        <a class="navbar-brand" href="#home">MARIANNE GAA</a>
-                      </div>
-                      <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                          <li><a href="#timeline">Timeline</a></li>
-                          <li><a href="#skills">Skills</a></li>
-                          <li><a href="#projects">Projects</a></li>
-                        </ul>
-                        
-                        <ul class="nav navbar-nav navbar-right">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#home">MARIANNE GAA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+    
+            <li class="nav-item">
+              <a class="nav-link" href="#timeline">Timeline</a>
+            </li>
 
-                                <li><button class="btn btn-primary navbar-btn">Resume</button></li>
-                                
-                                <li><a class="btn btn-social-icon btn-linkedin btn-lg" href="http://linkedin.com/in/marianne-gaa" target="_blank">
-                                  <span class="fa fa-linkedin"></span>
-                                </a></li>
-                                
-                                <li><a class="btn btn-social-icon btn-github btn-lg" href="http://github.com/mariannegaa" target="_blank">
-                                    <span class="fa fa-github"></span>
-                                </a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
 
-                        </ul>
-                            </div>
-                          </div>
-                        </nav>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            
+          </ul>
+
+          <a href="#" type="button" class="btn btn-outline-dark btn-sm mr-2">Resume</a>
+
+            <a class="icoLinkedin btn-outline-dark btn-lg mr-1" href="http://linkedin.com/in/marianne-gaa" target="_blank">
+            <span class="fa fa-linkedin"></span>
+            </a>
+
+            <a class="icoGithub btn-outline-dark btn-lg mr-1" href="http://github.com/mariannegaa" target="_blank">
+            <span class="fa fa-github"></span>
+            </a>
+
+          
+        </div>
+      </nav>
             <div class="jumbotron">
-                    <div class="container text-center">
-                      <h1 id="home">About me</h1> 
+                    <div class="container text-center" id="home">
+                      <h1>About me</h1> 
                         
                       <div class="col-md-6">
                         <img src="resources/images/ProfilePic.jpeg" class="img-responsive" style="width: 100%" alt="Image">
@@ -68,7 +71,7 @@
                       <div class="col-md-6">
                       <p>Some text that represents "Me"...</p>
                       </div>
-                      
+
                     </div>
             </div>
 
