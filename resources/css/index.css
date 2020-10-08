@@ -10,6 +10,11 @@
     line-height: 1.6;
   }
 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
   .navbar-brand {
     font-size: 25px;
     font-weight: bold;
@@ -22,5 +27,9 @@
   h1 {
     color: rgb(65, 63, 72);
     font-weight: bold;
+  }
+
+  footer {
+    padding: 10px;
   }
   
