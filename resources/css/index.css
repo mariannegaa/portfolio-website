@@ -1,52 +1,26 @@
   * {
-    font-family: Georgia, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     line-height: 1.6;
   }
 
-  header {
-    text-align: center;
+  .navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
   }
 
-  figure {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  #profile-pic {
-    height: 354px;
-    width: 368px;
-    opacity: 0.95;
+  .navbar-default .navbar-brand {
+    color: rgb(65, 63, 72);
   }
   
   h1 {
-    color: rgb(100, 112, 127);
-    font-family: 'Heveltica Neue';
+    color: rgb(65, 63, 72);
     font-weight: bold;
   }
   
-  p {
-    font-size: 18px;
-    text-align: center;
-  }
- 
-  .description {
-    font-size: 22px;
-    font-family: 'Heveltica Neue';
-    color: white;
-  }
-  
-  .top-half {
-    background-color: rgb(162, 178, 189);
-    height: 500px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
