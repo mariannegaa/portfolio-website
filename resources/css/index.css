@@ -21,11 +21,11 @@
   }
 
   .navbar-light .navbar-brand {
-    color: rgb(65, 63, 72);
+    color: #464a47;
   }
   
   h1 {
-    color: rgb(65, 63, 72);
+    color: grey;
     font-weight: bold;
   }
 
