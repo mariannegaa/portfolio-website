@@ -20,7 +20,7 @@ body {
 #navBar {
   position: fixed;
   width: 100vw;
-  height: 50px;
+  min-height: 55px;
   transition: 0.2s;
   display: flex;
   z-index: 300;
@@ -46,4 +46,5 @@ body h1 {
 body h4 {
   background-color: white;
   opacity: 0.80;
+  border-radius: 5px;
 }
