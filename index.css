@@ -11,9 +11,30 @@ body {
 }
 
 .navbar-brand {
+  font-family: 'Noto Serif', Helvetica, sans-serif;
   font-size: 25px;
 }
 
+/* code taken from https://codepen.io/jasperreyes/pen/doqgdP */
+
+#navBar {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  transition: 0.2s;
+  display: flex;
+  z-index: 300;
+}
+
+.floatingNav {
+  width: calc(100vh - 100px); 
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
+
+/* end code from codepen.io */
+
 h1 {
+  font-family: 'Noto Serif', Helvetica, sans-serif;
   font-weight: bold;
 }
