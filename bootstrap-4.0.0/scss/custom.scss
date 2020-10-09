@@ -1,6 +1,9 @@
 @import "_functions.scss";
 @import "_variables.scss";
 
-$body-color: #464a47;  //this is the text color
+$body-color: #464a47;
+$navbar-light-active-color: rgb(27, 41, 74);
+$navbar-brand-font-size: 25px;
+$headings-font-weight: bold;
 
 @import "bootstrap.scss";
