@@ -38,3 +38,12 @@ h1 {
   font-family: 'Noto Serif', Helvetica, sans-serif;
   font-weight: bold;
 }
+
+body h1 {
+  color: rgb(40, 53, 92);
+}
+
+body h4 {
+  background-color: white;
+  opacity: 0.80;
+}
