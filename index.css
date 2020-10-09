@@ -1,0 +1,15 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+ color: #464a47;
+} 
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+h1 {
+  font-weight: bold;
+}
