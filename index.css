@@ -38,6 +38,10 @@ body {
   padding: 8rem 2rem 4rem 2rem;
 }
 
+#timeline {
+  padding-top: 4rem;
+}
+
 h1 {
   font-family: 'Noto Serif', Helvetica, sans-serif;
   font-weight: bold;
