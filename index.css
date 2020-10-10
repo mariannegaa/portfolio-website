@@ -34,6 +34,10 @@ body {
 
 /* end code from codepen.io */
 
+.jumbotron {
+  padding: 8rem 2rem 4rem 2rem;
+}
+
 h1 {
   font-family: 'Noto Serif', Helvetica, sans-serif;
   font-weight: bold;
