@@ -35,11 +35,15 @@ body {
 /* end code from codepen.io */
 
 .jumbotron {
-  padding: 8rem 2rem 4rem 2rem;
+  padding: 8rem 2rem 4rem;
 }
 
 #timeline {
   padding-top: 4rem;
+}
+
+#skills {
+  padding-top: 2rem;
 }
 
 h1 {
@@ -243,5 +247,6 @@ body h4 {
       }
 }
 
+/* end code */
 
 
