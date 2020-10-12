@@ -36,6 +36,7 @@ body {
 
 .jumbotron {
   padding: 8rem 2rem 4rem;
+  background-color: rgb(183, 200, 214);
 }
 
 #timeline {
