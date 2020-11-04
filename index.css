@@ -14,6 +14,49 @@ body li {
   font-size: 15px;
 }
 
+a:link, a:visited {
+  color: #A6918B;
+  text-decoration: none;
+}
+
+.timeline a:link, a:visited {
+  border-bottom: dashed 1px #A6918B;
+}
+
+.contact a:link, a:visited {
+  border-bottom: dashed 1px #A6918B;
+}
+
+.timeline a:hover {
+  color: white;
+  background-color: #A6918B;
+}
+
+.contact a:hover {
+  color: white;
+  background-color: #A6918B;
+}
+
+.icoLinkedin.btn-outline-dark {
+  color: #A6918B !important;
+  background-color: white !important;
+}
+
+.icoLinkedin.btn-outline-dark:hover {
+  color: white !important;
+  background-color: #A6918B !important;
+}
+
+.icoGithub.btn-outline-dark {
+  color: #A6918B !important;
+  background-color: white !important;
+}
+
+.icoGithub.btn-outline-dark:hover {
+  color: white !important;
+  background-color: #A6918B !important;
+}
+
 .navbar {
   opacity: 0.85;
 }
