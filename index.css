@@ -1,13 +1,13 @@
 * {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 body {
- color: #464a47;
+ color: rgb(56, 59, 66);
 } 
 
 body p {
-  font-size: 15px;
+  font-size: 14.5px;
 }
 
 body li {
@@ -42,9 +42,58 @@ body li {
 
 /* end forked from codepen.io */
 
+/* change the background color */
+.navbar-custom {
+  background-color: white;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #3E4B73;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgb(56, 59, 66);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color:rgb(106, 112, 124);
+}
+
+.btn.btn-outline-info {
+  color: #A6918B !important;
+  border-color: #A6918B !important;
+}
+
+.btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
+  color: white !important;
+  background-color: #A6918B !important;
+}
+
+.image-left {
+  background-color: #DEB199;
+}
+
+.about-me {
+  align-self: flex-start;
+  transform: translateX(-10%);
+  background-color: white;
+}
+
+.about-me h4 {
+  color: white;
+  background-color: #A6918B;
+}
+
+.border.border-dark {  
+  border-width: 3px !important;
+}
+
 .jumbotron {
   padding: 8rem 2rem 4rem;
-  background-color: rgb(183, 200, 214);
+  background-color: white;
 }
 
 #timeline {
@@ -65,13 +114,11 @@ h1 {
 }
 
 body h1 {
-  color: rgb(40, 53, 92);
+  color: #3E4B73;
 }
 
 body h4 {
-  background-color: white;
   opacity: 0.80;
-  border-radius: 5px;
 }
 
 /* timeline code forked from https://bootsnipp.com/snippets/OzQj */
@@ -191,23 +238,23 @@ body h4 {
           }
 
 .timeline-badge.primary {
-  background-color: #2e6da4 !important;
+  background-color: #8B92A6 !important;
 }
 
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: #3E4B73 !important;
 }
 
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: #CDD7DA !important;
 }
 
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: #DEB199 !important;
 }
 
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: #A6918B !important;
 }
 
 .timeline-title {
@@ -301,7 +348,7 @@ body h4 {
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: rgb(40, 53, 92);
+  background-color: #8B92A6;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -312,10 +359,10 @@ body h4 {
 }
 
 .bar.front::before{
-  background-color: rgb(40, 53, 92);
+  background-color: #3E4B73;
 }
 .bar.back::before{
-  background-color: rgb(40, 53, 92);
+  background-color: #8B92A6;
 }
 
 .bar.learning::before{
