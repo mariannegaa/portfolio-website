@@ -15,46 +15,46 @@ body li {
 }
 
 a:link, a:visited {
-  color: #A6918B;
+  color: rgb(129, 111, 106);
   text-decoration: none;
 }
 
 .timeline a:link, a:visited {
-  border-bottom: dashed 1px #A6918B;
+  border-bottom: dashed 1px rgb(129, 111, 106);
 }
 
 .contact a:link, a:visited {
-  border-bottom: dashed 1px #A6918B;
+  border-bottom: dashed 1px rgb(129, 111, 106);
 }
 
 .timeline a:hover {
   color: white;
-  background-color: #A6918B;
+  background-color: rgb(129, 111, 106);
 }
 
 .contact a:hover {
   color: white;
-  background-color: #A6918B;
+  background-color: rgb(129, 111, 106);
 }
 
 .icoLinkedin.btn-outline-dark {
-  color: #A6918B !important;
+  color: rgb(129, 111, 106) !important;
   background-color: white !important;
 }
 
 .icoLinkedin.btn-outline-dark:hover {
   color: white !important;
-  background-color: #A6918B !important;
+  background-color: rgb(129, 111, 106) !important;
 }
 
 .icoGithub.btn-outline-dark {
-  color: #A6918B !important;
+  color: rgb(129, 111, 106) !important;
   background-color: white !important;
 }
 
 .icoGithub.btn-outline-dark:hover {
   color: white !important;
-  background-color: #A6918B !important;
+  background-color:rgb(129, 111, 106) !important;
 }
 
 .navbar {
@@ -106,13 +106,13 @@ a:link, a:visited {
 }
 
 .btn.btn-outline-info {
-  color: #A6918B !important;
-  border-color: #A6918B !important;
+  color: rgb(129, 111, 106) !important;
+  border-color: rgb(129, 111, 106) !important;
 }
 
 .btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
   color: white !important;
-  background-color: #A6918B !important;
+  background-color: rgb(129, 111, 106) !important;
 }
 
 .image-left {
@@ -127,7 +127,7 @@ a:link, a:visited {
 
 .about-me h4 {
   color: white;
-  background-color: #A6918B;
+  background-color: rgb(129, 111, 106);
 }
 
 .border.border-dark {  
@@ -301,7 +301,7 @@ body h4 {
 }
 
 .timeline-badge.info {
-  background-color: #A6918B !important;
+  background-color: rgb(129, 111, 106) !important;
 }
 
 .timeline-title {
