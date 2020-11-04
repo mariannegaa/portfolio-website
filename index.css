@@ -14,6 +14,8 @@ body li {
   font-size: 15px;
 }
 
+/* Body links styling */
+
 a:link, a:visited {
   color: rgb(129, 111, 106);
   text-decoration: none;
@@ -37,6 +39,10 @@ a:link, a:visited {
   background-color: rgb(129, 111, 106);
 }
 
+/* End body links stlying */
+
+/* Navbar buttons styling */
+
 .icoLinkedin.btn-outline-dark {
   color: rgb(129, 111, 106) !important;
   background-color: white !important;
@@ -57,6 +63,19 @@ a:link, a:visited {
   background-color:rgb(129, 111, 106) !important;
 }
 
+.btn.btn-outline-info {
+  color: rgb(129, 111, 106) !important;
+  border-color: rgb(129, 111, 106) !important;
+}
+
+.btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
+  color: white !important;
+  background-color: rgb(129, 111, 106) !important;
+}
+
+/* End Navbar buttons styling */
+
+/* Navbar styling */
 .navbar {
   opacity: 0.85;
 }
@@ -85,36 +104,28 @@ a:link, a:visited {
 
 /* end forked from codepen.io */
 
-/* change the background color */
 .navbar-custom {
   background-color: white;
 }
-/* change the brand and text color */
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color: #3E4B73;
 }
-/* change the link color */
+
 .navbar-custom .navbar-nav .nav-link {
   color: rgb(56, 59, 66);
 }
-/* change the color of active or hovered links */
+
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
   color:rgb(106, 112, 124);
 }
 
-.btn.btn-outline-info {
-  color: rgb(129, 111, 106) !important;
-  border-color: rgb(129, 111, 106) !important;
-}
+/* End Navbar styling */
 
-.btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
-  color: white !important;
-  background-color: rgb(129, 111, 106) !important;
-}
-
+/* Jumbotron styling */
 .image-left {
   background-color: #DEB199;
 }
@@ -139,6 +150,9 @@ a:link, a:visited {
   background-color: white;
 }
 
+/* End Jumbotron stlying */
+
+/* Sections spacing and styling */
 #timeline {
   padding-top: 4rem;
 }
@@ -168,7 +182,85 @@ body h4 {
   opacity: 0.80;
 }
 
-/* timeline code forked from https://bootsnipp.com/snippets/OzQj */
+/* End sections spacing and styling */
+
+/* Skills bars styling */
+/* code forked from https://codepen.io/milacarrera/pen/pEPoZz */
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.bar{
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.bar::before{
+  content:  attr(data-skill);
+  background-color: #8B92A6;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #3E4B73;
+}
+.bar.back::before{
+  background-color: #8B92A6;
+}
+
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(100% - 10px);
+}
+/* end code forked from https://codepen.io/milacarrera/pen/pEPoZz */
+/* End skills bars styling */
+
+/* Timeline styling */
+/* code forked from https://bootsnipp.com/snippets/OzQj */
 
 .timeline {
   list-style: none;
@@ -355,77 +447,6 @@ body h4 {
 }
 
 /* end code forked from https://bootsnipp.com/snippets/OzQj*/
+/* End timeline stlying */
 
-/* skills bar code forked from https://codepen.io/milacarrera/pen/pEPoZz */
-
-.container{
-  width: 100%;
-  margin: 0 auto;
-}
-@keyframes load{
-  from {
-    width: 0%
-  }
-}
-@-webkit-keyframes load{
-  from {
-    width: 0%
-  }
-}
-@-moz-keyframes load{
-  from {
-    width: 0%
-  }
-}
-@-o-keyframes load{
-  from {
-    width: 0%
-  }
-}
-
-.bar{
-  background-color: #EEE;
-  padding: 2px;
-  border-radius: 15px;
-  margin-bottom: 5px;
-  font-size: 14px;
-  color: #FFF;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
-.bar::before{
-  content:  attr(data-skill);
-  background-color: #8B92A6;
-  display: inline-block;
-  padding: 5px 0 5px 10px;
-  border-radius: inherit;
-  animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
-}
-
-.bar.front::before{
-  background-color: #3E4B73;
-}
-.bar.back::before{
-  background-color: #8B92A6;
-}
-
-.bar.learning::before{
-  width: calc(20% - 10px);
-}
-.bar.basic::before{
-  width: calc(40% - 10px);
-}
-.bar.intermediate::before{
-  width: calc(60% - 10px);
-}
-.bar.advanced::before{
-  width: calc(80% - 10px);
-}
-.bar.expert::before{
-  width: calc(100% - 10px);
-}
-/* end code forked from https://codepen.io/milacarrera/pen/pEPoZz */
 
