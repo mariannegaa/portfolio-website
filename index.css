@@ -123,6 +123,19 @@ a:link, a:visited {
   color:rgb(106, 112, 124);
 }
 
+.navbar-toggler.btn-outline-dark {
+  color: #3E4B73 !important;
+  border-color: #3E4B73 !important;
+  border-radius: 0 !important;
+}
+
+.navbar-toggler.btn-outline-dark:hover, .navbar-toggler.btn-outline-dark:focus, .navbar-toggler.btn-outline-dark:active {
+  color: white !important;
+  background-color: #3E4B73 !important;
+  border-color: #3E4B73 !important;
+  
+}
+
 /* End Navbar styling */
 
 /* Jumbotron styling */
