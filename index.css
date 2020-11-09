@@ -138,7 +138,7 @@ a:link, a:visited {
 
 @media (max-width: 978px) {
   .about-me {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
 }
 
