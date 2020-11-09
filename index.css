@@ -101,7 +101,7 @@ a:link, a:visited {
 .floatingNav {
   width: calc(100vh - 100px); 
   border-radius: 2px;
-  box-shadow: 0px 1px 10px #999;
+  border-bottom: solid 1px black;
 }
 
 /* end forked from codepen.io */
@@ -112,7 +112,7 @@ a:link, a:visited {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: #3E4B73;
+  color: #323140;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -129,7 +129,7 @@ a:link, a:visited {
 
 /* Jumbotron styling */
 .image-left {
-  background-color: #DEB199;
+  background-color: #D9BBA0;
 }
 
 .about-me {
@@ -183,7 +183,7 @@ h1 {
 }
 
 body h1 {
-  color: #3E4B73;
+  color: #323140;
 }
 
 body h4 {
@@ -243,10 +243,10 @@ body h4 {
 }
 
 .bar.front::before{
-  background-color: #3E4B73;
+  background-color: #323140;
 }
 .bar.back::before{
-  background-color: #8B92A6;
+  background-color: #8697A6;
 }
 
 .bar.learning::before{
@@ -396,15 +396,15 @@ body h4 {
 }
 
 .timeline-badge.success {
-  background-color: #3E4B73 !important;
+  background-color: #323140 !important;
 }
 
 .timeline-badge.warning {
-  background-color: #CDD7DA !important;
+  background-color: #D9BC66 !important;
 }
 
 .timeline-badge.danger {
-  background-color: #DEB199 !important;
+  background-color: #D9BBA0 !important;
 }
 
 .timeline-badge.info {

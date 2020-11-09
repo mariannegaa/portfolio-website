@@ -1,4 +1,4 @@
-// code taken from https://codepen.io/jasperreyes/pen/doqgdP
+// code forked from https://codepen.io/jasperreyes/pen/doqgdP
 
 $(window).scroll(function() {
     if ($(window).scrollTop() > 10) {
