@@ -66,6 +66,7 @@ a:link, a:visited {
 .btn.btn-outline-info {
   color: rgb(56, 59, 66) !important;
   border-color: rgb(56, 59, 66) !important;
+  background-color: white !important;
 }
 
 .btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
@@ -78,7 +79,7 @@ a:link, a:visited {
 
 /* Navbar styling */
 .navbar {
-  opacity: 0.85;
+  opacity: 0.90;
 }
 
 .navbar-brand {
