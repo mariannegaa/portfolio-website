@@ -44,33 +44,34 @@ a:link, a:visited {
 /* Navbar buttons styling */
 
 .icoLinkedin.btn-outline-dark {
-  color: rgb(129, 111, 106) !important;
+  color: rgb(56, 59, 66) !important;
   background-color: white !important;
 }
 
 .icoLinkedin.btn-outline-dark:hover {
-  color: white !important;
-  background-color: rgb(129, 111, 106) !important;
+  color: rgb(106, 112, 124) !important;
+  background-color: white !important;
 }
 
 .icoGithub.btn-outline-dark {
-  color: rgb(129, 111, 106) !important;
+  color: rgb(56, 59, 66) !important;
   background-color: white !important;
 }
 
 .icoGithub.btn-outline-dark:hover {
-  color: white !important;
-  background-color:rgb(129, 111, 106) !important;
+  color: rgb(106, 112, 124) !important;
+  background-color:white !important;
 }
 
 .btn.btn-outline-info {
-  color: rgb(129, 111, 106) !important;
-  border-color: rgb(129, 111, 106) !important;
+  color: rgb(56, 59, 66) !important;
+  border-color: rgb(56, 59, 66) !important;
 }
 
 .btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
   color: white !important;
-  background-color: rgb(129, 111, 106) !important;
+  background-color: rgb(106, 112, 124) !important;
+  border-color: rgb(106, 112, 124) !important;
 }
 
 /* End Navbar buttons styling */
