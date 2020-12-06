@@ -177,16 +177,16 @@ a:link, a:visited {
   padding-top: 4rem;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Noto Serif', Helvetica, sans-serif;
   font-weight: bold;
 }
 
-body h1 {
+body h1, h2 {
   color: #323140;
 }
 
-body h4 {
+body h4, h5 {
   opacity: 0.80;
 }
 
@@ -222,13 +222,12 @@ body h4 {
 
 .bar{
   background-color: #EEE;
-  padding: 2px;
+  padding: 0px;
   border-radius: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   font-size: 14px;
   color: #FFF;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 .bar::before{
   content:  attr(data-skill);
