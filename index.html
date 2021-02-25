@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <!--Required meta tags-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,10 +17,10 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-        <!--Bootstrap 4 stylesheet, custom css and google fonts-->
+        <!--Bootstrap 4 stylesheet, google fonts and custom css-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto+Mono&display=swap" rel="stylesheet">        
-        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="./resources/index.css" type="text/css">
 
         <!--Font Awesome icon library-->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -30,415 +30,88 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-    </head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-    <body>
-      <!--Navbar section-->
-      <nav class="navbar navbar-expand-lg navbar-custom" id="navBar">
-        <div class="navbar-brand">MARIANNE GAA</div>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
+</head>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
+<body>
+  <div id="nav-placeholder">
+  </div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#timeline">Background</a>
-            </li>
-            
-          </ul>
-
-            <a href="MarianneGaaResume(1).pdf" type="button" class="btn btn-outline-info btn-sm mr-2" target="_blank">Resume</a>
-            </a>
-
-            <a class="icoLinkedin btn-outline-dark btn-lg" href="http://linkedin.com/in/marianne-gaa" target="_blank">
-            <span class="fab fa-linkedin-in"></span>
-            </a>
-
-            <a class="icoGithub btn-outline-dark btn-lg" href="http://github.com/mariannegaa" target="_blank">
-            <span class="fab fa-github"></span>
-            </a>
-
+<!--Jumbotron section-->
+  <div class="jumbotron pt-6" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 p-5 image-left">
+          <img src="resources/images/IMG_0119.JPG" class="img-fluid mx-auto d-block" style="width: 75%" alt="Image">
         </div>
-      </nav>
-      <!--End Navbar section-->
-
-      <!--Jumbotron section-->
-            <div class="jumbotron pt-6" id="home">
-
-              <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6 p-5 image-left">
-                    <img src="resources/images/IMG_0119.JPG" class="img-fluid mx-auto d-block" style="width: 75%" alt="Image">
-
-                </div>
-                <div class="col-md-6 align-self-center about-me p-4 border border-dark">
-                    <h4 class="text-right">about me&nbsp;</h4>
-                    <p class="text-left">A self-taught programmer with an academic background in statistics, research and project design, I love a challenge and learning something new. 
-                      Particularly, I'm interested in the social implications of data and the stories derived from statistics. </br></br>
-                      What drives me most in my personal and professional growth is the aspiration for diverse work and life experiences.
-                    </p>
-                </div>
-
-              </div>
-            </div> 
-
-            </div>
-        <!--End Jumbotron section-->
-    
-        <!--Separator-->
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-          
-            <div class="col-md-6">
-                <hr>
-              </div>
-
-              </div>
-            </div>
-            
-        <!--Skills section-->
-              
-            <div class="container-fluid text-left" id="skills">
-                <div class="row">
-                    <div class="col">
-                        <h2>Skills Ranking</h2>
-                    </div>
-                  </div>
-                            
-                          <!--code forked from https://codepen.io/milacarrera/pen/pEPoZz-->
-                          
-                            <div class="row mx-2 py-2">
-                              <h4>Programming</h4>
-                            </div>
-
-                            <div class="row mx-2 py-2">
-                              <h5>Data Science:</h5>
-                            </div>
-                        
-
-                              <div class="row mx-1 py-4">
-
-                                  <div class="col-md-4">
-                                      <h5>Python</h5>
-                                  <div class="bar back intermediate mb-2" data-skill="Intermediate"></div>
-                                  </div>
-
-                                  <div class="col-md-4">
-                                      <h5>SQL</h5>
-                                  <div class="bar back intermediate mb-2" data-skill="Intermediate"></div>
-                                  </div>
-
-                                </div>
-
-                                <div class="row mx-2 py-2">
-                                    <h5>Frameworks:</h5>
-                                  </div>
-
-                              <div class="row mx-1 py-4">
-
-                                <div class="col-md-4">
-                                  <h5>React.JS</h5>
-                              <div class="bar back learning mb-2" data-skill="Learning"></div>
-                                </div>
-                              
-                              <div class="col-md-4">
-                                  <h5>Flask</h5>
-                              <div class="bar back intermediate mb-2" data-skill="Intermediate"></div>
-                              </div>
-
-                              
-
-                              </div>
-
-                              <div class="row mx-2 py-2">
-                                  <h5>Front End:</h5>
-                                </div>
-
-                            <div class="row mx-1 py-4">
-                              <div class="col-md-4">
-                                <h5>HTML</h5>
-                            <div class="bar front expert mb-2" data-skill="Expert"></div>
-                              </div>
-
-                              <div class="col-md-4">
-                                <h5>CSS</h5>
-                            <div class="bar front advanced mb-2" data-skill="Advanced"></div>
-                              </div>
-
-                              <div class="col-md-4">
-                                <h5>JavaScript</h5>
-                            <div class="bar back intermediate mb-2" data-skill="Intermediate"></div>
-                          </div>
-                            </div>
-
-                            <div class="row mx-2 py-2">
-                                <h4>Databases</h4>
-                              </div>
-
-                          <div class="row mx-1 py-4">
-                            <div class="col-md-4">
-                              <h5>Relational</h5>
-                          <div class="bar intermediate mb-2" data-skill="Intermediate"></div>
-                            </div>
-
-                        <div class="col-md-4">
-                            <h5>Non-Relational</h5>
-                        <div class="bar back intermediate mb-2" data-skill="Intermediate"></div>
-                      </div>
-
-
-                          </div>
-
-                            
-                          
-
-                          <!--end code forked from https://codepen.io/milacarrera/pen/pEPoZz-->
-
-                          
-                  </div>
                 
-        <!--End Skills section-->
-        
-        <!--Separator-->
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-          
-            <div class="col-md-6">
-                <hr>
-              </div>
-
-              </div>
-            </div>
-
-        <!--Projects section-->
-            <div class="container-fluid text-left" id="projects">
-                <div class="row">
-                    <div class="col">
-                        <h2>Latest Projects</h2>
-                        </div>
-                      </div>
-                      <div class="row py-4">
-                        <div class="col">
-                            <p>Content coming soon...</p>
-                          </div>
-                        </div>
-                  
-            </div>
-        <!--End Projects section-->
-
-        <!--Separator-->
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-          
-            <div class="col-md-6">
-                <hr>
-              </div>
-
-              </div>
+        <div class="col-md-6 align-self-center about-me p-4 border border-dark">
+          <h4 class="text-right">about me&nbsp;</h4>
+            <p class="text-left">A self-taught programmer with an academic background in statistics, research and project design, I love a challenge and learning something new. 
+              Particularly, I'm interested in the social implications of data and the stories derived from statistics. </br></br>
+              What drives me most in my personal and professional growth is the aspiration for diverse work and life experiences.
+            </p>
         </div>
 
-        <!--Timeline section-->
-                  
-            <div class="container-fluid text-left" id="timeline">
-              <div class="row">
-                <div class="col">
-                    <h2>How I got here:</h2>
-                    </div>
-                  </div>
+      </div>
+    </div> 
+  </div>
+<!--End Jumbotron section-->
 
-                  <div class="row mx-2 py-4">
-                    <div class="col-lg-12 background">
+<!--Separator-->
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <hr>
+      </div>
+    </div>
+  </div>
 
-                      <!--code forked from https://bootsnipp.com/snippets/OzQj by luisrudge-->
-                      
-                    
-                      <ul class="timeline">
-                          <li>
-                            <div class="timeline-badge danger"><i class="fas fa-code"></i></div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2020</h5>
-                              </div>
-                              <div class="timeline-body">
-                                <ul class="first-box">
-                                  <li>Completed online courses for programming languages required for data collection and analysis, namely SQL and Python</li>
-                                <li><a href="https://www.codecademy.com/learn/paths/data-science" target="_blank">Codecademy Data Science Career Path</a> </li>
-                                <li><a href="https://www.udemy.com/course/sql-mysql-for-data-analytics-and-business-intelligence/" target="_blank">Udemy MySQL for Data Analytics and Business Intelligence</a> </li>
-                                <li>Latest course: <a href="https://www.udemy.com/course/the-complete-python-web-course-learn-by-building-8-apps/" target="_blank">Udemy Python and Flask for Web Apps</a> </li>
-                                  </ul>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="timeline-inverted">
-                            <div class="timeline-badge info"><i class="	fas fa-code-branch"></i></div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2019</h5>
-                              </div>
-                              <div class="timeline-body">
-                                <ul class="second-box">
-                                  <li>Completed online courses in HTML, CSS and various front end libraries through FreeCodeCamp and Codecademy</li>
-                                  <li><a href="https://www.codecademy.com/learn/paths/web-development" target="_blank">Codecademy Web Development Career Path</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="timeline-badge success"><i class="far fa-save"></i></div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2018</h5>
-                              </div>
-                              <div class="timeline-body">
-                                  <ul class="third-box">
-                                    <li>Moved to Tamale, Ghana to work as Reporting and Communications Assistant 
-                                      to the National Director of WANEP Ghana office (West Africa Network for Peace building)</li>
-                                    <li>Summarized key insights for projects and activities</li>
-                                    <li>Analyzed and reported on regional activities, contributing to creation of strategies for 
-                                      preventing conflicts within Ghana’s mining communities</li>
-                                    <li>Collaborated with Plan International team to design communications aimed at reaching 
-                                      a wider audience</li>
-                                    </ul>
-                              </div>
-                            </div>
-                          </li>
-                          <li class="timeline-inverted">
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2017</h5>
-                              </div>
-                              <div class="timeline-body">
-                                  <ul class="fourth-box">
-                                      <li>Completed post-graduate studies in International Development, earning a Graduate Certificate from Humber College</li>
-                                      <li>Learned to design projects and manage programmes in the non-profit sector</li>
-                                      <li>Covered a wide range of topics from conducting needs assessments, applying for grants and submitting project proposals to 
-                                        allocating budgets for supplies and operation costs and integrating monitoring and evaluation plans to maximize efficiency</li>
-                                      <li>All coursework submitted for evaluation was collaborative and effective communication was greatly emphasized</li>
-                                      <li>Graduated with honours</li>
-                                    </ul>
+<!--Contact section-->
+  <div class="container-fluid" class="contact" id="contact">
+    <div class="row justify-content-center">
+      <div class="col-md-4 contact">
+        <h3>Let's connect!</h3></br>
+          <p>Find me on <a href="https://linkedin.com/in/marianne-gaa" target="_blank">LinkedIn</a>. </p>
+          <p>Find me on <a href="https://github.com/mariannegaa" target="_blank">GitHub</a>. </p>
+      </div>
 
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="timeline-badge info"><i class="	fas fa-database"></i></div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2015 - 2016</h5>
-                              </div>
-                              <div class="timeline-body">
-                                  <ul class="fifth-box">
+      <div class="col-md-4">
+        <form name="contact" netlify>
+          <h3>Contact</h3>
+            <p><label for="name">Name <input type="text" name="name" required></label>
+            </p>
 
-                  
-                                      <li>Worked in a very technical and detail-oriented role as a Customer Service Rep for HRG Inc.</li>
-                                      <li>This required exchanging airfare through back end software and troubleshooting an online tool for clients</li>
-                                      <li>Proven track record for heeding airfare exchange guidelines meticulously while prioritizing client needs</li>
-                                      
-                                    </ul>
-                                
-                              </div>
-                            </div>
-                          </li>
+            <p><label for="email">Email <input type="email" name="email" required></label>
+            </p>
+
+            <p><label for="message" class="mb-0 pb-0">Message
+              <textarea id="message" name="message" placeholder="Write something..." cols="30" rows="5" class="mt-0 pt-0" required></textarea></label>
+            </p>
+
+            <p><button type="submit">Send</button>
+            </p>
                           
-                          <li class="timeline-inverted">
-                            <div class="timeline-badge warning"><i class="fas fa-bug"></i></div>
-                            <div class="timeline-panel">
-                              <div class="timeline-heading">
-                                <h5 class="timeline-title">2014</h5>
-                              </div>
-                              <div class="timeline-body">
+        </form>
+      </div>
+    </div>
+  </div>
+<!--End Contact section-->
 
-                                  <ul class="seventh-box">
-                                      <li>Completed a Bachelor of Arts degree in Psychology at Brock University</li>
-                                      <li>There was an emphasis on statistics and research design, critical thinking, cognition and perception</li>
-                                      <li>This set a solid foundation for sound data collection and analysis and set me on a path that would naturally lead me to data science and programming</li>
-                                    </ul>
+<!--Footer section-->
+  <footer class="container-fluid text-center py-5">
+    <p> <small>&copy; 2020 Marianne Gaa</small></p>
+  </footer>
+<!--End footer section-->
 
-                              </div>
-                            </div>
-                          </li>
-                      </ul>
-                  
-                  <!--end code forked from https://bootsnipp.com/snippets/OzQj-->
-                     
-                    </div>
-                  </div>
-                    
-                </div>
-        <!--End Timeline section-->
+  <script src="./scroll.js"></script>
 
-        <!--Separator-->
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-          
-            <div class="col-md-6">
-                <hr>
-              </div>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
 
-              </div>
-        </div>
-
-        <!--Contact section-->
-                
-                <div class="container-fluid" class="contact" id="contact">
-                  <div class="row justify-content-center">
-                    
-                    <div class="col-md-4 contact">
-                      <h3>Let's connect!</h3></br>
-                      <p>Find me on <a href="https://linkedin.com/in/marianne-gaa" target="_blank">LinkedIn</a>. </p>
-                      <p>Find me on <a href="https://github.com/mariannegaa" target="_blank">GitHub</a>. </p>
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <form name="contact" netlify>
-                          <h3>Contact</h3>
-
-                          <p>
-                            <label for="name">Name <input type="text" name="name" required></label>
-                          </p>
-
-                          <p>
-                            <label for="email">Email <input type="email" name="email" required></label>
-                          </p>
-                          
-                          <p>
-                              <label for="message" class="mb-0 pb-0">Message
-                              <textarea id="message" name="message" placeholder="Write something..." cols="30" rows="5" class="mt-0 pt-0" required></textarea></label>
-                          </p>
-
-                          <p>
-                            <button type="submit">Send</button>
-                          </p>
-                          
-                        </form>
-                      </div>
-
-                  </div>
-                </div>
-        <!--End Contact section-->
-
-        <!--Footer section-->
-        
-            <footer class="container-fluid text-center py-5">
-                    <p> <small>&copy; 2020 Marianne Gaa</small></p>
-            </footer>
-
-        <!--End footer section-->
-        <script src="./index.js"></script>
-    </body>
+</body>
 </html>
