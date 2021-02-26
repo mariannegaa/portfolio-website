@@ -1,9 +1,9 @@
 * {
-  font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', Helvetica, Arial, sans-serif;
 }
 
 body {
- color: rgb(56, 59, 66);
+  color: rgb(56, 59, 66);
 } 
 
 body p {
@@ -67,6 +67,7 @@ a:link, a:visited {
   color: rgb(56, 59, 66) !important;
   border-color: rgb(56, 59, 66) !important;
   background-color: white !important;
+  font-family: 'Roboto', Helvetica, sans-serif !important;
 }
 
 .btn.btn-outline-info:hover, .btn.btn-outline-info:focus, .btn.btn-outline-info:active {
@@ -83,7 +84,7 @@ a:link, a:visited {
 }
 
 .navbar-brand {
-  font-family: 'Noto Serif', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 25px;
 }
 
@@ -117,6 +118,7 @@ a:link, a:visited {
 
 .navbar-custom .navbar-nav .nav-link {
   color: rgb(56, 59, 66);
+  font-family: 'Roboto', Helvetica, sans-serif !important;
 }
 
 .navbar-custom .nav-item.active .nav-link,
@@ -177,8 +179,8 @@ a:link, a:visited {
   padding-top: 4rem;
 }
 
-h1, h2 {
-  font-family: 'Noto Serif', Helvetica, sans-serif;
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-weight: bold;
 }
 
